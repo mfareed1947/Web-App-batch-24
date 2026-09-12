@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+/* h1{
+   color: brown; 
+} */
+
+body {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Sora", sans-serif;
+}
+
+.heading {
+  /* color: skyblue; */
+  /* color: #0067ff; */
+  /* color: rgb(231, 34, 56); */
+  /* background-color: chocolate; */
+  /* opacity: 0.2; */
+  background-color: rgba(210, 30, 30);
+  /* opacity: 0.2; */
+}
+
+/* #heading-one {
+  color: red;
+} */
