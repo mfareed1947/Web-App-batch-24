@@ -1,0 +1,33 @@
+/* .para {
+  font-size: xx-large;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  font-family: monospace;
+  text-decoration: underline;
+  line-height: 25px;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  text-align: center;
+  text-shadow: 1px 4px 3px rgb(37, 171, 32);
+}
+.para:active {
+  color: white;
+  background-color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.para::first-letter {
+  font-size: 52px;
+  color: red;
+}
+
+px
+%
+em
+rem
+vw
+vh */
