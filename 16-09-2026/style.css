@@ -1,0 +1,46 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(123, 201, 45);
+  padding: 20px 40px;
+  margin: 0px auto;
+  box-shadow: 1px 1px 1px 1px rgb(194, 189, 189);
+  /* border-radius: 50%; */
+}
+
+.container {
+  width: 300px;
+  /* max-width: 700px; */
+  /* min-width: 300px; */
+  background-color: rgb(218, 160, 160);
+  height: 300px;
+  /* color: white; */
+  /* overflow: scroll; */
+  padding: 10px 20px 30px 40px;
+  margin: 0px auto;
+  /* margin: 10px 20px 30px 40px; */
+  /* border-width: 2px;
+  border-style: dashed;
+  border-color: red; */
+  border: 10px solid black;
+  display: none;
+}
+
+.heading-one {
+  display: inline;
+}
+
+.heading-two {
+  display: inline;
+}
+
+ul li {
+  display: inline;
+  /* margin-left: 10px; */
+}
