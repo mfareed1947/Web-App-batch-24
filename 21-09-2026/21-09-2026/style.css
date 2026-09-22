@@ -1,0 +1,62 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: blue;
+  width: 500px;
+  height: 450px;
+  position: relative;
+  top: 50px;
+  /* top:100px; */
+  /* bottom:; */
+  /* left:100px; */
+  /* right:; */
+}
+
+
+.disc-btn{
+  position: absolute;
+  top: 25%;
+  right: 46%;
+}
+
+
+.child-one{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -40px;
+  left: 0;
+  z-index: -9 ;
+  background-color: yellow;
+}
+
+.child-two{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0%;
+  right: 0;
+  background-color: red;
+}
+
+.child-three{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  background-color: green;
+}
+
+.child-four{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 0%;
+  background-color: blueviolet;
+}
