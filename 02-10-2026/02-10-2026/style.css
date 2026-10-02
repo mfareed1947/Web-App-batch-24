@@ -1,0 +1,73 @@
+/* .container {
+  width: 500px;
+  height: 100vh;
+  background-color: brown;
+  background-image: url("./0a3c71611ecc341a32f5.jpeg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 100%;
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.child {
+  width: 500px;
+  height: 500px;
+  background-color: brown;
+  /* transform: rotate(170deg); */
+  /* transform: rotateX(20deg); */
+  /* transition: all 2s linear; */
+  /* transition-property: width;
+  transition-duration: 6s; */
+  animation-name: myAnimation;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  /* animation-delay: 2s; */
+}
+
+.child:hover {
+  /* transform: scale(2); */
+  /* transform: skewY(20deg); */
+  /* transform: translateY(-100px); */
+  /* width: 700px; */
+  /* background-color: blue; */
+}
+
+@keyframes myAnimation {
+  /* from {
+    background-color: red;
+    transform: translate(0px);
+  }
+
+  to {
+    background-color: yellow;
+    transform: translate(100px);
+  } */
+
+  0% {
+    background-color: red;
+    transform: rotate(0deg);
+  }
+  25% {
+    background-color: yellow;
+    transform: rotate(90deg);
+  }
+  50% {
+    background-color: blue;
+    transform: rotate(180deg);
+  }
+  75% {
+    background-color: black;
+    transform: rotate(270deg);
+  }
+  100% {
+    background-color: green;
+    transform: rotate(360deg);
+  }
+}
